@@ -26,10 +26,10 @@ Deve-se ter instalado o Python, FastAPI e React
 
 Comandos:
 Na pasta "api" execute
-´´´
+```
 uvicorn uvicorn main:app --reload
-´´´
+```
 Na pasta "client" execute
-´´´
+```
 npm start
-´´´
+```
