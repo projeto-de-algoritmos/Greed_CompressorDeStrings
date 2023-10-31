@@ -38,5 +38,5 @@ Abra o navegador e acesse o endereço http://localhost:5173/
 
 ## Vídeo de apresentação
 
-O vídeo se encontra na pasta "assets".
+O vídeo se encontra na pasta "assets" - ![Apresentação 3 - Algoritmo de Huffman](https://github.com/projeto-de-algoritmos/Greed_CompressorDeStrings/raw/main/assets/Greed_HuffmanCompression.mp4).
 <video src="./assets/Greed_HuffmanCompression.mp4" controls title="Vídeo de Apresentação - Compressão de Huffman"></video>
