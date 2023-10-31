@@ -35,3 +35,7 @@ docker compose up --build
 ```
 
 Abra o navegador e acesse o endereço http://localhost:5173/
+
+## Vídeo de apresentação
+
+<video src="./assets/Greed_HuffmanCompression.mp4" controls title="Vídeo de Apresentação - Compressão de Huffman"></video>
