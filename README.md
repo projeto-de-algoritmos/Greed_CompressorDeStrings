@@ -25,17 +25,13 @@ Este projeto apresenta uma ferramenta para compactação de strings, possibilita
 
 ## Uso
 
-Deve-se ter instalado o Python, FastAPI e React
+Deve-se ter instalado o Docker
 
 Comandos:
-Na pasta "api" execute
+Na pasta raiz execute
 
 ```
-uvicorn uvicorn main:app --reload
+docker compose up --build
 ```
 
-Na pasta "client" execute
-
-```
-npm start
-```
+Abra o navegador e acesse o endereço http://localhost:5173/
