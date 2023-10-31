@@ -13,16 +13,23 @@
 Este projeto apresenta uma ferramenta para compactação de strings, possibilitando a "codificação" de mensagens de forma que ocupem menos espaço de memória e armazenamento.  
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![image](https://github.com/projeto-de-algoritmos/Greed_CompressorDeStrings/assets/78509975/89d0d146-79c9-461c-a424-844aed312eba)
+
 
 ## Instalação 
 
-**Linguagem**: Python e Typescript<br>
+**Linguagem**: Python<br>
 **Framework**: React e FastAPI<br>
-**Infraestrutura**: Docker<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Deve-se ter instalado o Python, FastAPI e React
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Comandos:
+Na pasta "api" execute
+´´´
+uvicorn uvicorn main:app --reload
+´´´
+Na pasta "client" execute
+´´´
+npm start
+´´´
