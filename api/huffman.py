@@ -1,7 +1,7 @@
 import heapq
 class HuffmanCoding:
     def __init__(self, message):
-        self.mesage = message
+        self.message = message.strip()
         self.heap = []
         self.codes = {}
         self.left = None
@@ -81,19 +81,19 @@ class HuffmanCoding:
         return b
 
     def compress(self):
-        message = input("Enter a message: ")
-        message = message.strip()
+        # message = input("Enter a message: ")
 
-        frequency = self.make_frequency_dict(message)
+        frequency = self.make_frequency_dict(self.message)
 
         self.make_heap(frequency)
         self.merge_codes()
         self.make_codes()
 
-        encoded_message = self.get_encoded_message(message)
+        encoded_message = self.get_encoded_message(self.message)
         # padded_encoded_message = pad_encoded_message(encoded_message)
 
         byte_message = self.get_byte_array(encoded_message)
         #byte_message = self.get_byte_array(padded_encoded_message)
 
-        print(encoded_message)
+        return encoded_message
+        # print(encoded_message)
